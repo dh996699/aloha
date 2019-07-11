@@ -30,12 +30,12 @@ footer  {
     color: #969696;
 }
 
-.aloha-sign-up {
+/* .aloha-sign-up {
     color: #969696;
 }
 
 
-/* aloha-header */
+/* aloha-header
 
 .aloha-header {
     display: flex;
@@ -149,7 +149,7 @@ span { font-weight: bold;
 }
 
 /*  aloha sign-up session */
-
+/* 
 .aloha-sign-up {
     height: 430px;
     background: 
@@ -192,24 +192,27 @@ h2 { font-family: 'Playfair Display', serif;
 }
 
 .aloha-subscribe {
-    display: inline-block;
+    display: flex;
+    justify-content:
     align-items: center;
     
    
 }
 
-.form-text {
-    /* margin: 10px; */
+.email {
+    /* margin: 10px;
     font-size: 1.25rem;
     padding: 10px;
     width: 71%;
     border-radius: 27px;
+    border: none;
     position: relative;
     outline: none;
+
     
 }
 
-button {
+.subscribebtn {
     background-color: #e2574c;
     color: white;
     text-decoration: none;
@@ -217,13 +220,11 @@ button {
     margin: 0 100px 0 0;
     border-radius: 27px;
     opacity: 0.9;
-    position: absolute;
-    left: 940px;
     outline: none;
     
   }
   
-  button:hover {
+  .subscribebtn:hover {
     opacity:1;
     background-color: #b64036;
     color: white;
@@ -231,7 +232,7 @@ button {
 
   }
 
-/* Aloha Footer session */
+/* Aloha Footer session 
 
 .site-footer {
     margin-top: 4px;
@@ -242,7 +243,7 @@ button {
 .social-media li {
     margin: 20px 0;
 
-}
+} */ 
 
 @media screen and (max-width: 480px) {
     
@@ -368,12 +369,6 @@ span { font-weight: bold;
     width:100%
 }
 
-.categories-list {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
 .mens {
     height: 250px;
     background: 
@@ -396,13 +391,17 @@ span { font-weight: bold;
     color:goldenrod
 }
 
+.trendsglasses ul {
+    display: flex;
+}
+
 .trends {
     height: 250px;
     background: 
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
     url("images/trends-category.jpg") no-repeat;
     background-size: cover;
-    flex-basis: 49%;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 0;
     border: 2px solid white;
@@ -428,7 +427,7 @@ span { font-weight: bold;
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
     url("images/glasses-category.jpg") no-repeat;
     background-size: cover;
-    flex-basis: 49%;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 0;
     border: 2px solid white;
@@ -447,13 +446,17 @@ span { font-weight: bold;
 
 }
 
+.salebags {
+    display: flex;
+}
+
 .sale {
     height: 250px;
     background: 
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
     url("images/sale-category.jpg") no-repeat;
     background-size: cover;
-    flex-basis: 49%;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 0;
     border: 2px solid white;
@@ -479,7 +482,7 @@ span { font-weight: bold;
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
     url("images/bags-category.jpg") no-repeat;
     background-size: cover;
-    flex-basis: 49%;
+    flex-basis: 50%;
     flex-grow: 1;
     flex-shrink: 0;
     border: 2px solid white;
@@ -559,30 +562,28 @@ span { font-weight: bold;
     background: 
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
     url("images/wave-bkgd.jpg") no-repeat bottom;
-    background-size: auto cover, contain;
+    background-size: 100px cover, contain;
     background-position: bottom;
     color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-div {
-    padding: 100px;
-    margin: 0 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 5%;
+    margin: 5%;
 }
 
 h2 { font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-style: italic;
     
 }
 
 .sign-up-header {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
+    margin: 10px;
+    text-align: center;
 }
 
 .sign-up-body {
@@ -592,28 +593,41 @@ h2 { font-family: 'Playfair Display', serif;
     justify-content: center;
     align-items: center;
     line-height: 2;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+    margin-top: 10px;
 }
 
 .aloha-subscribe {
-    display: inline-block;
-    align-items: center;
-    
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    border-radius: 27px;
+    margin-top: 30px;
+
    
 }
 
-.form-text {
-    /* margin: 10px; */
-    font-size: 1.25rem;
-    padding: 10px;
-    width: 71%;
+.form-subscribe {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email {
+    font-size: 1rem;
+    padding-left: 10px;
     border-radius: 27px;
-    position: relative;
+    border:none;
     outline: none;
+    border: none;
+    display:flex;
+    align-items: flex-start;
+    flex-basis: 70%;
     
 }
 
-button {
+.subscribebtn {
     background-color: #e2574c;
     color: white;
     text-decoration: none;
@@ -621,13 +635,14 @@ button {
     margin: 0 100px 0 0;
     border-radius: 27px;
     opacity: 0.9;
-    position: absolute;
-    left: 940px;
     outline: none;
+    margin:3px;
+    display: flex;
+    flex-basis: 30%;
     
   }
   
-  button:hover {
+  .subscribebtn:hover {
     opacity:1;
     background-color: #b64036;
     color: white;
@@ -635,8 +650,41 @@ button {
 
   }
 
+  .site-footer {
+    margin-top: 4px;
+    padding-top: 10%;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    line-height: 40px;
+    color: white;
+    text-align: center:
+}
 
-      }
+.social-media {
+    display: flex;
+}
+
+.social-media ul {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.social-media li {
+    margin: 20px 0;
+    }
+    .social-media span {
+
+        display: none;
+    }
+
+
+
 /* 
 @media screen and (min-width: 600px) {
     .aloha-header {
