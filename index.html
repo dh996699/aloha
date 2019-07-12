@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aloha Apparel Co.</title>
+    <!-- Flickity CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -50,32 +52,76 @@
     <!-- Category Session -->
     <session class="products">
         <div class="pro-categories">
-                <div class="mens"><a class="mens-text" href="mens-category">MEN'S</a></div>
+            <div class="mens"><a class="mens-text" href="mens-category">MEN'S</a></div>
             <div class="trendsglasses">
                 <ul class="trendsglasses-ul">
-                <li class="trends"><a class="trends-text" href="trends">TRENDS</a></li>
-                <li class="glasses"><a class="glasses-text" href="glasses">GLASSES</a></li>
-            </ul>
+                    <li class="trends"><a class="trends-text" href="trends">TRENDS</a></li>
+                    <li class="glasses"><a class="glasses-text" href="glasses">GLASSES</a></li>
+                </ul>
             </div>
             <div class="salebags">
                 <div class="sale"><a class="sale-text" href="sale">SALE</a></div>
                 <div class="bags"><a class="bags-text" href="bags">BAGS</a></div>
             </div>
-                <div class="women"><a class="women-text" href="womens">WOMEN'S</a></div>
+            <div class="women"><a class="women-text" href="womens">WOMEN'S</a></div>
         </div>
     </session>
     <section class="product-image">
         <div class="loved-product">
             <h2>Most-Loved <span>Products</span></h2>
         </div>
-        <div class="feature-image">
-            <img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
-        </div>
-        <div class="description">
+        <div class="main-carousel">
+            <div class="carousel-cell">
+                <img src="images/stretch-knit-dress.jpg" alt="stretch knit dress">
+                <p class="product-desc">Dress</p>
+                <h3 class="product-name">Stretch Knit Dress</h3>
+                <p class="price">$169</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
+                <p class="product-desc">Shirt</p>
+                <h3 class="product-name">Cotton Blue Shirt</h3>
+                <p class="price">$89</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/checked-stretch-dress.jpg" alt="checked stretch dress">
             <p class="product-desc">Dress</p>
-            <p class="product-name">checked-stretch-dress</p>
-            <p class="price">$20</p>
-        </div>
+            <h3 class="product-name">Checked-Stretch-Dress</h3>
+            <p class="price">$129</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
+            <p class="product-desc">Bag</p>
+            <h3 class="product-name">Blue Hipster Backpack</h3>
+            <p class="price">$69</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/demin-overall-shorts.jpg" alt="demin overall shorts">
+            <p class="product-desc">Demin</p>
+            <h3 class="product-name">Demin Overall Shorts</h3>
+            <p class="price">$89</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/pink-dotted-dress.jpg" alt="pink dotted dress">
+            <p class="product-desc">Dresses</p>
+            <h3 class="product-name">Pink Dotted Dress</h3>
+            <p class="price">$99</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/blue-silk-dress.jpg" alt="blue silk dress">
+            <p class="product-desc">Dresses</p>
+            <h3 class="product-name">Blue Silk Dress</h3>
+            <p class="price">$119</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="images/cotton-yellow-tshirt.jpg" alt="cotton yellow tshirt">
+            <p class="product-desc">Shirt</p>
+            <h3 class="product-name">Cotton Yellow Tshirt</h3>
+            <p class="price">$39</p>
+            </div>
+
+          </div>
+
     </section>
     <section class="aloha-sign-up">
         <div class="sign-up-div">
@@ -110,9 +156,12 @@
                     <li><i class="fab fa-google-plus"></i><span>google+</span></li>
                 </ul>
             </div>
-            </footer>
+        </footer>
     </section>
+ <!-- Flickity JavaScript -->
+ <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
+ <script src="main.js"></script>
 </body>
 
 </html>

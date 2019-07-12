@@ -543,6 +543,11 @@ span { font-weight: bold;
 
 /*  Feature Product  */
 
+.carousel-cell {
+    width: 100%;
+    text-align: center;
+  }
+
 .feature-image {
 
     width:100%;
