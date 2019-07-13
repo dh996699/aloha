@@ -1,20 +1,13 @@
-* {
-    box-sizing: border-box;
-}
 
 /* Typography */
 html body {
-    font-size: .875rem;
+    font-size: 1rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-style: normal;
+
 }
 
 h1 h2 h3 {
     font-family: 'Playfair Display', serif;
-    font-family: 'Playfair Display';
-    font-weight: normal;
-    font-style: normal;
 }
 
 /*  Color */
@@ -32,25 +25,228 @@ a:link {
     text-decoration: none;
 }
 
-button:hover {
-    color:#b64036;
-}
-
-ul {
-    border-color: #d7d7d7;
-}
-
 footer  {
     background-color: #242424;
     color: #969696;
 }
 
-/* Function  */
-
-html {
-scroll-behavior: smooth;
+/* .aloha-sign-up {
+    color: #969696;
 }
 
+
+/* aloha-header
+
+.aloha-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+}
+.logo {
+    flex-basis: 19%;
+    align-self: flex-start;
+}
+
+.logo img {
+    flex-basis: 50%;
+    max-width: 210px;
+    align-self: flex-start;
+}
+.cart-icon {
+    align-items: flex-end;
+}
+
+.cart-icon img {
+    max-width: 120px;
+}
+
+.aloha-nav {
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.aloha-nav li {
+    display: inline-block;
+    font-size: 1.875rem;
+    margin: 0 15px;
+
+}
+
+/* aloha-banner */
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items; center;
+}
+.container-small {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.aloha-banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+    background: 
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
+    url("images/banner-girl.png")no-repeat center 4.375rem,
+    url("images/flower-bkgd.jpg")repeat-x center top;
+    background-size: cover, contain, cover;
+}
+.new-collection {
+    color:white;
+    font-size: 1.56rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.season {
+    color:white;
+    font-size: 3.75rem;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* aloha about session */
+
+.aloha-about {
+    text-align: center;
+    padding: 60px;
+}
+
+h2 { font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    
+}
+
+span { font-weight: bold;
+        font-style: normal;
+        margin: 0 15px;
+}
+
+.about-header {
+    margin: 0;
+}
+
+.about-body {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+    margin-top: 2rem;
+}
+
+/*  aloha sign-up session */
+/* 
+.aloha-sign-up {
+    height: 430px;
+    background: 
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
+    url("images/wave-bkgd.jpg") no-repeat bottom;
+    background-size: 1024px 1500px cover, contain;
+    background-position: bottom;
+    color:white;
+}
+
+.sign-up-div {
+    padding: 100px;
+    margin: 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 { font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    
+}
+
+.sign-up-header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.sign-up-body {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: 1.25rem;
+}
+
+.aloha-subscribe {
+    display: flex;
+    justify-content:
+    align-items: center;
+    
+   
+}
+
+.email {
+    /* margin: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+    width: 71%;
+    border-radius: 27px;
+    border: none;
+    position: relative;
+    outline: none;
+
+    
+}
+
+.subscribebtn {
+    background-color: #e2574c;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin: 0 100px 0 0;
+    border-radius: 27px;
+    opacity: 0.9;
+    outline: none;
+    
+  }
+  
+  .subscribebtn:hover {
+    opacity:1;
+    background-color: #b64036;
+    color: white;
+    text-decoration: none;
+
+  }
+
+/* Aloha Footer session 
+
+.site-footer {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 160px;
+}
+.social-media li {
+    margin: 20px 0;
+
+} */ 
+
+@media screen and (max-width: 480px) {
+    
     /* Aloha Header for 480px */
 
     .aloha-header {
@@ -104,7 +300,6 @@ scroll-behavior: smooth;
         display: flex;
         align-items: center;
         text-align: center;
-        justify-content: center;
         height: 410px;
         background: 
         linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
@@ -336,12 +531,24 @@ span { font-weight: bold;
     padding: 38px;
 }
 
+/* .loved-product h2 { font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    
+}
+
+.loved-product span { font-weight: bold;
+        font-style: normal;
+        margin: 0 15px;
+} */
+
+
 /*  Feature Product  */
 
 .main-carousel {
+
     margin: 45px;
 }
-
 .carousel-cell {
     width: 100%;
     text-align: center;
@@ -371,6 +578,8 @@ span { font-weight: bold;
     font-size: 1rem;
     margin: 18px;
     color: #969696;
+
+}
 
 }
 
@@ -422,10 +631,6 @@ h2 { font-family: 'Playfair Display', serif;
     background-color:#fff;
     border-radius: 27px;
     margin-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
    
 }
@@ -462,8 +667,6 @@ h2 { font-family: 'Playfair Display', serif;
     margin:3px;
     display: flex;
     flex-basis: 30%;
-    align-items: center;
-    justify-content: center;
     
   }
   
@@ -474,8 +677,6 @@ h2 { font-family: 'Playfair Display', serif;
     text-decoration: none;
 
   }
-
-/* Page Footer */
 
   .site-footer {
     margin-top: 4px;
@@ -489,11 +690,6 @@ h2 { font-family: 'Playfair Display', serif;
     line-height: 40px;
     color: white;
     text-align: center:
-}
-
-.footer-content a {
-    color: white;
-    text-decoration: underline;
 }
 
 .social-media {
@@ -515,142 +711,51 @@ h2 { font-family: 'Playfair Display', serif;
         display: none;
     }
 
+
+
+
 @media screen and (min-width: 600px) {
-    html body {
-        font-size: 1rem;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-    }
-
-/* aloha-header */
-
-.aloha-header {
+    .aloha-header {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
     padding: 15px;
 }
 .logo {
-    flex-basis: 10%;
+    flex-basis: 19%;
     align-self: flex-start;
-    order:1;
 }
 
 .logo img {
-    flex-basis: 30%;
-    max-width: 20vw;
+    flex-basis: 50%;
+    max-width: 210px;
     align-self: flex-start;
 }
 .cart-icon {
     align-items: flex-end;
-    order:3;
 }
 
 .cart-icon img {
-    max-width: 7vw;
+    max-width: 120px;
 }
 
 .aloha-nav {
     flex-basis: 100%;
     text-align: center;
     justify-content: space-evenly;
-    max-width: 300px;
-    order:2;
 }
 .aloha-nav li {
     display: inline-block;
-    font-size: 1.1rem;
-    margin: 0 7px;
-}
-
-.aloha-nav ul {
-    border-top: none;
-    padding-top: 0;
+    font-size: 30px;
+    margin: 0 15px;
 
 }
-
-
-/*  Feature Product  */
-
-.carousel-cell {
-    width: 50%;
   }
 
-  .carousel-cell img {
-      max-width: 200px;
+  @media screen and (min-width: 1240px) {
+    body {
+      color: red;
+    }
   }
-
-/*  aloha sign-up session */
-
-.aloha-subscribe {
-    height: 100%;
-    width: 100%;
-    background-color:#fff;
-    border-radius: 27px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 40px auto;
-}
-
-/* Page Footer */
-
-.site-footer {
-    margin-top: 4px;
-    display: flex;
-    padding-top: 8%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
-
-
-}
-.footer-content {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    text-align: center;
-    line-height: 30px;
-    color: white;
-    width: auto;
-
-}
-
-.footer-content a {
-    color: white;
-    text-decoration: underline;
-}
-
-.social-media {
-    display: flex;
-}
-
-.social-media ul {
-
-    display: flex;
-    width: auto;
-    flex-direction: column;
-    color: #969696;
-    width: auto;
-    justify-content: flex-end;
-    margin-left: 0 auto;
-
-}
-.social-media li {
-    margin: 10px 0;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-
-    }
-
-    .social-media span {
-        display: inline-block;
-    }
-
-
-}

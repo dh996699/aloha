@@ -3,5 +3,8 @@ const flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
   wrapAround: true,
-  freeScroll: true
+  freeScroll: true,
+contain: true,
+prevNextButtons: false,
+autoPlay: true
 });
