@@ -72,7 +72,7 @@ scroll-behavior: smooth;
     
     .logo img {
         flex-basis: 50%;
-        max-width: 8.37rem;
+        max-width: 130px;
         align-self: flex-start;
     }
     .cart-icon {
@@ -80,7 +80,7 @@ scroll-behavior: smooth;
     }
     
     .cart-icon img {
-        max-width: 3.37rem;
+        max-width: 50px;
     }
     
     .aloha-nav {
@@ -513,6 +513,11 @@ h2 { font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
 }
 
+.contact-info a:hover {
+   color: #b64036;
+
+}
+
 .address {
     line-height: 1rem;
     margin-bottom: 1rem;
@@ -535,10 +540,11 @@ h2 { font-family: 'Playfair Display', serif;
     
 
 }
-.social-media a:link, a:visited {
+
+/* a:link, a:visited {
 
     color: #fff;
-}
+} */
 .social-media li {
     margin: 20px 5px
     }
@@ -794,11 +800,12 @@ h2 { font-family: 'Playfair Display', serif;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    text-align: center;
     line-height: 30px;
     padding-left: 10px;
     color: #fff;
     width: auto;
+    text-align: left;
+    margin-top: 15px;
 
 }
 
@@ -818,7 +825,6 @@ h2 { font-family: 'Playfair Display', serif;
     flex-direction: column;
     color: #969696;
     width: auto;
-    justify-content: flex-end;
     margin-left: 0 auto;
 
 }
@@ -827,6 +833,7 @@ h2 { font-family: 'Playfair Display', serif;
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    margin-bottom: 1px
 
     }
 
