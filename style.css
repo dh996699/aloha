@@ -93,6 +93,7 @@ scroll-behavior: smooth;
         display: inline-block;
         font-size: 1rem;
         margin: 0 0.93rem;
+        text-transform: uppercase;
     
     }
     .aloha-nav ul {
@@ -102,7 +103,7 @@ scroll-behavior: smooth;
         padding-top: .3rem;
     
     }
-    /*   Aloha Banner   */
+    /*   Aloha Banner for 480px */
 
     .aloha-banner {
         display: flex;
@@ -138,7 +139,7 @@ scroll-behavior: smooth;
         justify-content: center;
     }
 
-    /* aloha about session */
+    /* aloha about session for 480px */
 
 .aloha-about {
     text-align: center;
@@ -169,11 +170,10 @@ span { font-weight: bold;
 }
 
 
-/* Category Session */
+/* Category Session for 480px */
 
 .products {
     display: flex;
-    /* align-items: center; */
     flex-direction: row;
 
 }
@@ -348,7 +348,7 @@ span { font-weight: bold;
     padding: 38px;
 }
 
-/*  Feature Product  */
+/*  Feature Product for 480px */
 
 .main-carousel {
     margin: 45px;
@@ -386,7 +386,7 @@ span { font-weight: bold;
 
 }
 
-/*  aloha sign-up session */
+/*  aloha sign-up session for 480px */
 
 .aloha-sign-up {
     height: 380px;
@@ -487,7 +487,7 @@ h2 { font-family: 'Playfair Display', serif;
 
   }
 
-/* Page Footer */
+/* Page Footer for 480px */
 
   .site-footer {
     margin-top: 4px;
@@ -541,10 +541,14 @@ h2 { font-family: 'Playfair Display', serif;
 
 }
 
-/* a:link, a:visited {
-
+.social-media a:link {
     color: #fff;
-} */
+}
+
+.social-media a:active {
+    color: #fff;
+}
+
 .social-media li {
     margin: 20px 5px
     }
@@ -567,7 +571,7 @@ h2 { font-family: 'Playfair Display', serif;
         font-style: normal;
     }
 
-/* aloha-header */
+/* aloha-header for 600px*/
 
 .aloha-header {
     display: flex;
@@ -585,16 +589,11 @@ h2 { font-family: 'Playfair Display', serif;
 
 .logo img {
     flex-basis: 30%;
-    max-width: 20vw;
     align-self: flex-start;
 }
 .cart-icon {
     align-items: flex-end;
     order:3;
-}
-
-.cart-icon img {
-    max-width: 7vw;
 }
 
 .aloha-nav {
@@ -617,7 +616,7 @@ h2 { font-family: 'Playfair Display', serif;
 }
 
 
- /*   Aloha Banner   */
+ /*   Aloha Banner for 600px  */
 
  .aloha-banner {
     display: flex;
@@ -650,7 +649,7 @@ h2 { font-family: 'Playfair Display', serif;
     justify-content: center;
 }
 
-/* Category Session */
+/* Category Session for 600px */
 
 .pro-categories {
     width:100%;
@@ -758,7 +757,7 @@ h2 { font-family: 'Playfair Display', serif;
 
 
 
-/*  Feature Product  */
+/*  Feature Product for 600px  */
 
 .carousel-cell {
     width: 50%;
@@ -768,7 +767,7 @@ h2 { font-family: 'Playfair Display', serif;
       max-width: 200px;
   }
 
-/*  aloha sign-up session */
+/*  aloha sign-up session for 600px */
 
 .aloha-subscribe {
     height: 100%;
@@ -783,7 +782,7 @@ h2 { font-family: 'Playfair Display', serif;
     margin: 40px auto;
 }
 
-/* Page Footer */
+/* Page Footer for 600px */
 
 .site-footer {
     margin-top: 4px;
@@ -844,6 +843,182 @@ h2 { font-family: 'Playfair Display', serif;
 .social-media a:hover {
     color:  #e2574c;
 }
+}
 
+/* ************  Media @ 1240px configuration ****************************/
+
+@media screen and (min-width: 1240px) {
+
+ /* Aloha Header for 1240px */
+
+ .aloha-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo {
+    flex-basis: 19%;
+    align-self: flex-start;
+}
+
+.logo img {
+    flex-basis: 50%;
+    max-width: 150px;
+    align-self: flex-start;
+}
+.cart-icon {
+    align-items: flex-end;
+}
+
+.cart-icon img {
+    max-width: 65px;
+}
+
+.aloha-nav {
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 560px;
+    
+}
+.aloha-nav li {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 7px;
+
+}
+.aloha-nav ul {
+    border-top: none;
+
+}
+    /*   Aloha Banner for 1240px */
+
+.aloha-banner {
+    background: 
+    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
+    url("images/banner-girl.png")no-repeat center 90px,
+    url("images/flower-bkgd.jpg")repeat-x center top;
+    background-size: cover, contain, cover;
+    height: 600px;
+}
+
+.new-collection {
+    color:#fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.season {
+    color:#fff;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+      /* aloha about session */
+
+.aloha-about {
+    padding: 60px 300px;
+}
+
+h2 { font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    
+}
+span { font-weight: bold;
+        font-style: normal;
+        margin: 0 15px;
+}
+
+.about-header {
+    margin: 0;
+}
+
+.about-body {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-top: 1.7rem;
+}  
+
+/* Category Session for 600px */
+
+.mens {
+    height: 300px;
+}
+.mens a {
+    font-weight: normal;
+    font-size:2.5rem;
+}
+
+.trends {
+    height: 300px;
+}
+
+.trends a {
+    font-weight: normal;
+    font-size:2.5rem;
+}
+
+.glasses {
+    height: 300px;
+}
+
+.glasses a {
+    font-weight: normal;
+    font-size:2.5rem;
+}
+
+.sale {
+    height: 300px;
+}
+
+.sale a {
+    font-weight: normal;
+    font-size:2.5rem;
+}
+
+.bags {
+    height: 300px;
+}
+
+.bags a {
+    font-weight: normal;
+    font-size:2.5rem;
+}
+
+.women {
+    height: 300px;
+}
+.women a {
+    font-weight: normal;
+    font-size:2.5rem;
+}
+
+/*  Feature Product for 600px  */
+
+.carousel-cell {
+    width: 25%;
+  }
+
+  .carousel-cell img {
+      max-width: 230px;
+  }
+
+
+
+  
 
 }
