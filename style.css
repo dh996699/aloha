@@ -452,7 +452,7 @@ span { font-weight: bold;
     background: 
     linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
     url("images/wave-bkgd.jpg") no-repeat bottom;
-    background-size: 100px cover, contain;
+    background-size: 100px, cover, contain;
     background-position: bottom;
     color: #fff;
     display:flex;
@@ -631,53 +631,26 @@ h2 { font-family: 'Playfair Display', serif;
 /* aloha-header for 600px*/
 
 .aloha-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 15px;
 }
+
 .logo {
     flex-basis: 10%;
-    align-self: flex-start;
     order:1;
 }
 
 .logo img {
     flex-basis: 30%;
-    align-self: flex-start;
 }
 .cart-icon {
-    align-items: flex-end;
     order:3;
 }
 
-.add-to-cart {
-    position: absolute;
-    right: 13px;
-    top: 13px;
-}
-
-.add-to-cart button {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-}
-
 .aloha-nav {
-    flex-basis: 100%;
-    text-align: center;
-    justify-content: space-evenly;
     max-width: 350px;
     order:2;
 }
 .aloha-nav li {
-    display: inline-block;
     font-size: 1rem;
     margin: 0 7px;
 }
@@ -691,22 +664,9 @@ h2 { font-family: 'Playfair Display', serif;
 
  /*   Aloha Banner for 600px  */
 
- .aloha-banner {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: 410px;
-    background: 
-    linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
-    url("images/banner-girl.png")no-repeat center 45px,
-    url("images/flower-bkgd.jpg")repeat-x center top;
-    background-size: cover, contain, cover;
-}
-
 .new-collection {
     color:#fff;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -714,18 +674,12 @@ h2 { font-family: 'Playfair Display', serif;
     margin-bottom: 25px;
 }
 .season {
-    color:#fff;
     font-size: 3rem;
-    font-family: 'Playfair Display', serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 /* Category Session for 600px */
 
 .pro-categories {
-    width:100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -736,32 +690,12 @@ h2 { font-family: 'Playfair Display', serif;
     flex-basis: 50%;
 }
 
-.mens a {
-    color:#fff;
-    font-weight: bold;
-}
-.mens-text:hover {
-    color:#f5ebc6;
-}
-
-.trendsglasses ul {
-    display: flex;
-}
-
 .trends {
     height: 150px;
     width:25vw;
     flex-basis: 25%;
 }
 
-.trends a {
-    color:#fff;
-    font-weight: bold;
-}
-.trends-text:hover {
-    color:#f5ebc6;
-
-}
 
 .glasses {
     height: 150px;
@@ -769,32 +703,12 @@ h2 { font-family: 'Playfair Display', serif;
     flex-basis: 25%;
 }
 
-.glasses a {
-    color:#fff;
-    font-weight: bold;
-}
-.glasses-text:hover {
-    color:#f5ebc6;
 
-}
-
-.salebags {
-    display: flex;
-}
 
 .sale {
     height: 150px;
     width:25vw;
     flex-basis: 25%;
-
-}
-
-.sale a {
-    color:#fff;
-    font-weight: bold;
-}
-.sale-text:hover {
-    color:#f5ebc6
 
 }
 
@@ -804,31 +718,11 @@ h2 { font-family: 'Playfair Display', serif;
     flex-basis: 25%;
 }
 
-.bags a {
-    color:#fff;
-    font-weight: bold;
-}
-.bags-text:hover {
-    color:#f5ebc6
-
-}
-
 .women {
     height: 150px;
     width: 50vw;
     flex-basis: 50%;
 }
-
-.women a {
-    color:#fff;
-    font-weight: bold;
-}
-.women-text:hover {
-    color:#f5ebc6
-
-}
-
-
 
 /*  Feature Product for 600px  */
 
@@ -843,14 +737,6 @@ h2 { font-family: 'Playfair Display', serif;
 /*  aloha sign-up session for 600px */
 
 .aloha-subscribe {
-    height: 100%;
-    width: 100%;
-    background-color:#fff;
-    border-radius: 27px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 60vw;
     margin: 40px auto;
 }
@@ -869,34 +755,18 @@ h2 { font-family: 'Playfair Display', serif;
 
 }
 .footer-content {
-    display: flex;
     align-items: flex-start;
-    flex-direction: column;
-    line-height: 30px;
-    padding-left: 10px;
-    color: #fff;
+    padding-left: 15px;
     width: auto;
+    margin-top: 10px;
     text-align: left;
-    margin-top: 15px;
 
-}
-
-.footer-content a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.social-media {
-    display: flex;
 }
 
 .social-media ul {
-
-    display: flex;
     width: auto;
     flex-direction: column;
     color: #969696;
-    width: auto;
     margin-left: 0 auto;
 
 }
@@ -913,9 +783,6 @@ h2 { font-family: 'Playfair Display', serif;
         display: inline-block;
     }
 
-.social-media a:hover {
-    color:  #e2574c;
-}
 }
 
 /* ************  Media @ 750px configuration ****************************/
@@ -1001,14 +868,9 @@ h2 { font-family: 'Playfair Display', serif;
 
 .aloha-nav li {
     display: inline-block;
-    font-size: 1rem;
     margin: 0 15px;
 }
 
-.aloha-nav ul {
-    border-top: none;
-
-}
 /*   Aloha Banner for 1240px */
 
 .aloha-banner {
@@ -1021,21 +883,10 @@ h2 { font-family: 'Playfair Display', serif;
 }
 
 .new-collection {
-    color:#fff;
     font-size: 1.3rem;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 25px;
 }
 .season {
-    color:#fff;
     font-size: 4rem;
-    font-family: 'Playfair Display', serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 /* aloha about session for 1240px */
@@ -1142,10 +993,10 @@ span { font-weight: bold;
 .sign-up-body {
     width:700px;
 }
+
 /* Page Footer for 1240px */
 
 .site-footer {
     padding: 5% 5%;
 }
-
 }
