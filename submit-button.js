@@ -1,4 +1,3 @@
-console.log('hello');
 const submitForm = document.getElementById("form-subscribe-id");
 const emailInput = document.getElementById("email-id");
 submitForm.addEventListener("submit", function (event) {

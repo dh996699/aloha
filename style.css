@@ -122,7 +122,7 @@ scroll-behavior: smooth;
     }
     .aloha-nav li {
         display: inline-block;
-        font-size: 1rem;
+        font-size: .875rem;
         margin: 0 0.93rem;
         text-transform: uppercase;
     
@@ -390,6 +390,8 @@ span { font-weight: bold;
     width: 100%;
     text-align: center;
   }
+  
+
 
 .feature-image {
 
@@ -415,6 +417,24 @@ span { font-weight: bold;
     font-size: 1rem;
     margin: 18px;
     color: #969696;
+
+}
+
+.add-to-cart-item {
+    width: 100%;
+}
+
+.carousel-cell button {
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: #fff;
+    text-decoration: none;
+    width: 50%;
+    height: 35px;
+    border-radius: 27px;
+    margin: 18px;
+    padding: 0px;
+    outline: none;
 
 }
 
@@ -975,7 +995,7 @@ h2 { font-family: 'Playfair Display', serif;
 .aloha-nav li {
     display: inline-block;
     font-size: 1rem;
-    margin: 0 7px;
+    margin: 0 15px;
 }
 
 .aloha-nav ul {

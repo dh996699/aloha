@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="aloha-header">
+    <header class="aloha-header" id="aloha-body-header">
         <div class="logo">
             <img src="images/aloha-logo.svg" alt="aloha-logo" />
         </div>
@@ -55,18 +55,18 @@
     <!-- Category Session -->
     <session class="products" id="shop">
         <div class="pro-categories container">
-            <div class="mens"><a class="mens-text" href="mens-category">MEN'S</a></div>
+            <div class="mens"><a class="mens-text" href="#aloha-body-header">MEN'S</a></div>
             <div class="trendsglasses">
                 <ul class="trendsglasses-ul">
-                    <li class="trends"><a class="trends-text" href="trends">TRENDS</a></li>
-                    <li class="glasses"><a class="glasses-text" href="glasses">GLASSES</a></li>
+                    <li class="trends"><a class="trends-text" href="#aloha-body-header">TRENDS</a></li>
+                    <li class="glasses"><a class="glasses-text" href="#aloha-body-header">GLASSES</a></li>
                 </ul>
             </div>
             <div class="salebags">
-                <div class="sale"><a class="sale-text" href="sale">SALE</a></div>
-                <div class="bags"><a class="bags-text" href="bags">BAGS</a></div>
+                <div class="sale"><a class="sale-text" href="#aloha-body-header">SALE</a></div>
+                <div class="bags"><a class="bags-text" href="#aloha-body-header">BAGS</a></div>
             </div>
-            <div class="women"><a class="women-text" href="womens">WOMEN'S</a></div>
+            <div class="women"><a class="women-text" href="#aloha-body-header">WOMEN'S</a></div>
         </div>
     </session>
     <section class="product-image" id="featured">
@@ -79,48 +79,56 @@
                 <p class="product-desc">Dresses</p>
                 <h3 class="product-name">Stretch Knit Dress</h3>
                 <p class="price">$169</p>
+                <button class="add-to-cart-itme" id="stretch-knit-dress">Add to Cart</button>
             </div>
             <div class="carousel-cell">
                 <img src="images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
                 <p class="product-desc">Shirt</p>
                 <h3 class="product-name">Cotton Blue Shirt</h3>
                 <p class="price">$89</p>
+                <button class="add-to-cart-item" id="cotton-blue-shirt">Add to Cart</button>
             </div>
             <div class="carousel-cell">
                 <img src="images/checked-stretch-dress.jpg" alt="checked stretch dress">
                 <p class="product-desc">Dresses</p>
                 <h3 class="product-name">Checked-Stretch-Dress</h3>
                 <p class="price">$129</p>
+                <button class="add-to-cart-item" id="checked-stretch-dress"> Add to Cart </button>
             </div>
             <div class="carousel-cell">
                 <img src="images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
                 <p class="product-desc">Bag</p>
                 <h3 class="product-name">Blue Hipster Backpack</h3>
                 <p class="price">$69</p>
+                <button class="add-to-cart-item" id="blue-hipster-backpack">Add to Cart</button>
             </div>
             <div class="carousel-cell">
                 <img src="images/demin-overall-shorts.jpg" alt="demin overall shorts">
                 <p class="product-desc">Demin</p>
                 <h3 class="product-name">Demin Overall Shorts</h3>
                 <p class="price">$89</p>
+                <p><button class="add-to-cart-item" id="demin-overall-shorts">Add to Cart</button></p>
             </div>
             <div class="carousel-cell">
                 <img src="images/pink-dotted-dress.jpg" alt="pink dotted dress">
                 <p class="product-desc">Dresses</p>
                 <h3 class="product-name">Pink Dotted Dress</h3>
                 <p class="price">$99</p>
+                <button class="add-to-cart-item" id="pink-dotted-dress">Add to Cart</button>
             </div>
             <div class="carousel-cell">
                 <img src="images/blue-silk-dress.jpg" alt="blue silk dress">
                 <p class="product-desc">Dresses</p>
                 <h3 class="product-name">Blue Silk Dress</h3>
                 <p class="price">$119</p>
+                <button class="add-to-cart-item" id="blue-silk-dress">Add to Cart</button>
             </div>
             <div class="carousel-cell">
                 <img src="images/cotton-yellow-tshirt.jpg" alt="cotton yellow tshirt">
                 <p class="product-desc">Shirt</p>
                 <h3 class="product-name">Cotton Yellow Tshirt</h3>
                 <p class="price">$39</p>
+                <button class="add-to-cart-item" id="cotton-yellow-tshirt">Add to Cart</button>
             </div>
 
         </div>
@@ -173,9 +181,9 @@
     </section>
     <!-- Flickity JavaScript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="main.js"></script>
+    <script src="main-carousel.js"></script>
     <!-- Submit button for subcribe form -->
-    <script src="submit.js"></script>
+    <script src="submit-button.js"></script>
     <!-- Add-to-cart button on the cart icon -->
     <script src="add-to-cart.js"></script>
 
