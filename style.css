@@ -55,7 +55,7 @@ html {
 scroll-behavior: smooth;
 }
 
-    /* Aloha Header for 480px */
+/* Aloha Header for 480px */
 
     .aloha-header {
         display: flex;
@@ -77,12 +77,43 @@ scroll-behavior: smooth;
     }
     .cart-icon {
         align-items: flex-end;
+        position: relative;
     }
     
     .cart-icon img {
         max-width: 50px;
     }
+
+    .add-to-cart {
+        position: absolute;
+        right: 13px;
+        top: 13px;
+
+    }
+
+    .add-to-cart button {
+        background-color: #e2574c;
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+      }
+      
+      .add-to-cart button:hover {
+        opacity:1;
+        background-color: #b64036;
+        color: #fff;
+        text-decoration: none;
     
+      }
+
     .aloha-nav {
         flex-basis: 100%;
         text-align: center;
@@ -179,7 +210,7 @@ span { font-weight: bold;
 }
 
 .pro-categories {
-    width:100%
+    width:100%;
 }
 
 .mens {
@@ -201,6 +232,7 @@ span { font-weight: bold;
     color:#fff;
     font-weight: bold;
 }
+
 .mens-text:hover {
     color:#f5ebc6;
 }
@@ -594,16 +626,32 @@ h2 { font-family: 'Playfair Display', serif;
     order:3;
 }
 
+.add-to-cart {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+
+.add-to-cart button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
 .aloha-nav {
     flex-basis: 100%;
     text-align: center;
     justify-content: space-evenly;
-    max-width: 300px;
+    max-width: 350px;
     order:2;
 }
 .aloha-nav li {
     display: inline-block;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0 7px;
 }
 
@@ -666,7 +714,7 @@ h2 { font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 .mens-text:hover {
-    color:#f5ebc6
+    color:#f5ebc6;
 }
 
 .trendsglasses ul {
@@ -684,7 +732,7 @@ h2 { font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 .trends-text:hover {
-    color:#f5ebc6
+    color:#f5ebc6;
 
 }
 
@@ -699,7 +747,7 @@ h2 { font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 .glasses-text:hover {
-    color:#f5ebc6
+    color:#f5ebc6;
 
 }
 
@@ -898,6 +946,23 @@ h2 { font-family: 'Playfair Display', serif;
 
 .cart-icon img {
     max-width: 65px;
+}
+
+.add-to-cart button {
+    background-color: #e2574c;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    order:4;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.add-to-cart {
+    position: absolute;
+    right: 20px;
+    top: 18px;
 }
 
 .aloha-nav {
