@@ -64,6 +64,12 @@ scroll-behavior: smooth;
         justify-content: space-between;
         margin: 0 auto;
         padding: 15px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: #fff;
     }
     .logo {
         flex-basis: 19%;
@@ -142,6 +148,7 @@ scroll-behavior: smooth;
         text-align: center;
         justify-content: center;
         height: 410px;
+        margin-top: 80px;
         background: 
         linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,  rgba(0,0,0,0.3) 100%),
         url("images/banner-girl.png")no-repeat center 45px,
