@@ -425,7 +425,7 @@ h2 { font-family: 'Playfair Display', serif;
     align-items: center;
     line-height: 2;
     font-size: 1.15rem;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .aloha-subscribe {
@@ -438,8 +438,6 @@ h2 { font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
-
-   
 }
 
 .form-subscribe {
@@ -451,7 +449,7 @@ h2 { font-family: 'Playfair Display', serif;
 
 .email {
     font-size: 1rem;
-    padding-left: 10px;
+    padding-left: 20px;
     border-radius: 27px;
     border:none;
     outline: none;
@@ -778,7 +776,7 @@ h2 { font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    max-width: 60vw;
     margin: 40px auto;
 }
 
@@ -845,6 +843,29 @@ h2 { font-family: 'Playfair Display', serif;
 }
 }
 
+/* ************  Media @ 750px configuration ****************************/
+
+@media screen and (min-width: 750px) {
+
+
+/*  aloha sign-up session for 750px */
+
+.aloha-subscribe {
+    max-width: 50vw;
+}
+
+/* ************  Media @ 1024px configuration ****************************/
+
+@media screen and (min-width: 1024px) {
+
+
+    /*  aloha sign-up session for 1024px */
+    
+    .aloha-subscribe {
+        max-width: 40vw;
+    }
+
+
 /* ************  Media @ 1240px configuration ****************************/
 
 @media screen and (min-width: 1240px) {
@@ -859,6 +880,7 @@ h2 { font-family: 'Playfair Display', serif;
     margin: 0 auto;
     padding: 20px;
 }
+
 .logo {
     flex-basis: 19%;
     align-self: flex-start;
@@ -869,6 +891,7 @@ h2 { font-family: 'Playfair Display', serif;
     max-width: 150px;
     align-self: flex-start;
 }
+
 .cart-icon {
     align-items: flex-end;
 }
@@ -882,19 +905,19 @@ h2 { font-family: 'Playfair Display', serif;
     text-align: center;
     justify-content: space-evenly;
     max-width: 560px;
-    
-}
+    }
+
 .aloha-nav li {
     display: inline-block;
     font-size: 1rem;
     margin: 0 7px;
-
 }
+
 .aloha-nav ul {
     border-top: none;
 
 }
-    /*   Aloha Banner for 1240px */
+/*   Aloha Banner for 1240px */
 
 .aloha-banner {
     background: 
@@ -923,7 +946,7 @@ h2 { font-family: 'Playfair Display', serif;
     justify-content: center;
 }
 
-      /* aloha about session */
+/* aloha about session for 1240px */
 
 .aloha-about {
     padding: 60px 300px;
@@ -953,7 +976,7 @@ span { font-weight: bold;
     margin-top: 1.7rem;
 }  
 
-/* Category Session for 600px */
+/* Category Session for 1240px */
 
 .mens {
     height: 300px;
@@ -1002,12 +1025,13 @@ span { font-weight: bold;
 .women {
     height: 300px;
 }
+
 .women a {
     font-weight: normal;
     font-size:2.5rem;
 }
 
-/*  Feature Product for 600px  */
+/*  Feature Product for 1240px  */
 
 .carousel-cell {
     width: 25%;
@@ -1017,8 +1041,19 @@ span { font-weight: bold;
       max-width: 230px;
   }
 
+/*  aloha sign-up session for 1240px */
 
+.aloha-subscribe {
+    width: 30vw;
+}
 
-  
+.sign-up-body {
+    width:700px;
+}
+/* Page Footer for 1240px */
+
+.site-footer {
+    padding: 5% 5%;
+}
 
 }
