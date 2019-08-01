@@ -18,6 +18,8 @@
 
 <body>
     <header class="aloha-header" id="aloha-body-header">
+        <a class="screen-reader-text" href="#main">Skip to content</a>
+
         <div class="logo">
             <img src="images/aloha-logo.svg" alt="aloha-logo" />
         </div>
@@ -25,7 +27,7 @@
             <img src="images/cart-icon.svg" alt="cart-icon" />
         </div>
         <div class="add-to-cart">
-                <button id="add-me">0</button>
+            <button id="add-me">0</button>
         </div>
         <nav class="aloha-nav">
             <ul>
@@ -150,15 +152,22 @@
     </section>
     <section>
         <footer class="site-footer">
+
+            <main id="main" class="site-main" tabindex="-1">
+                <p>Hello World</p>
+            </main>
+
             <div class="footer-content">
                 <div class="copy-right">
                     <p>©2019 Aloha Apparel Co.</p>
                     <p>Powered by HTML and CSS.</p>
+
                 </div>
                 <div class="contact-info">
                     <p>604-604-6040. &nbsp</p>
-                    <p><a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></div>
-                    </p>
+                    <p><a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a>
+                </div>
+                </p>
 
                 <div class="address">
                     <p>1490 W Broadway</p>
@@ -186,7 +195,7 @@
     <script src="javascript/submit-button.js"></script>
     <!-- Add-to-cart button on the cart icon -->
     <script src="javascript/add-to-cart.js"></script>
-
+    <script src="javascript/tota11y.min.js"></script>
 </body>
 
 </html>

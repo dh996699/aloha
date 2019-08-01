@@ -71,6 +71,24 @@ scroll-behavior: smooth;
         margin-bottom: 30px;
         background-color: #fff;
     }
+    .screen-reader-text:focus {
+        clip: auto !important;
+        display: block;
+        height: auto;
+        left: 20px;
+        top: 20px;
+        width: auto;
+        z-index: 100000;
+        background-color: red;
+    }
+    
+    .screen-reader-text {
+       clip: rect(1px, 1px, 1px, 1px);
+       position: absolute !important;
+       height: 1px;
+       width: 1px;
+       overflow: hidden;
+    }
     .logo {
         flex-basis: 19%;
         align-self: flex-start;
@@ -807,7 +825,7 @@ h2 { font-family: 'Playfair Display', serif;
         max-width: 40vw;
     }
 
-
+}
 /* ************  Media @ 1240px configuration ****************************/
 
 @media screen and (min-width: 1240px) {
@@ -998,5 +1016,8 @@ span { font-weight: bold;
 
 .site-footer {
     padding: 5% 5%;
+}
+
+
 }
 }
