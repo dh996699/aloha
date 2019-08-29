@@ -624,6 +624,10 @@ h2 { font-family: 'Playfair Display', serif;
     color: #fff;
 }
 
+.social-media a:visited {
+    color: #fff;
+}
+
 .social-media li {
     margin: 20px 5px
     }
