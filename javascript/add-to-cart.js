@@ -49,7 +49,7 @@ coyets.onclick = function () {
   addcount.innerHTML = count;
 };
 
-#main[tabindex = "-1"]: focus {
-  outline: 0;
-  visibility: hidden;
-};
+// #main[tabindex = "-1"]: focus {
+//   outline: 0;
+//   visibility: hidden;
+// };
